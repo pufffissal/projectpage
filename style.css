@@ -2,14 +2,14 @@
 body {
     font-family: "Arial", sans-serif;
     text-align: center;
-    overflow: hidden;
+    overflow: auto;
     margin: 0;
     padding: 0;
     background-color: #222;
 }
 
 .video-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
