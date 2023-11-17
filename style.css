@@ -96,3 +96,17 @@ body {
     margin: 5px 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* Stílus az ikonos linkhez */
+.discord-icon-link {
+    text-decoration: none;
+    color: #7289DA;
+    font-size: 32px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.discord-icon-link:hover {
+    transform: scale(2);
+}
+
