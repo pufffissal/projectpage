@@ -44,6 +44,20 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.tittle {
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Monocraft;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Kártyák */
@@ -110,3 +124,17 @@ body {
     transform: scale(2);
 }
 
+.itch {
+    position: inherit;
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #7289DA;
+    font-size: 32px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.itch:hover {
+    transform: scale(2);
+}
