@@ -2,10 +2,39 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Projektlap</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Gomb stílus közvetlenül itt, vagy átteheted style.css-be */
+        .back-button {
+            display: block;
+            width: fit-content;
+            margin: 3rem auto 2rem auto;
+            padding: 0.75rem 1.5rem;
+            background-color: #03dac6;
+            color: #121212;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        .back-button:hover {
+            background-color: #02c0b4;
+            transform: scale(1.05);
+        }
+
+        .tittle {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="video-container">
@@ -14,7 +43,9 @@
         </video>
         <div class="overlay"></div>
     </div>
+
     <div class="tittle">Projektek</div>
+
     <div class="content">
         <div class="card">
             <a target="_blank" href="https://pufffissal.github.io/pufferteamcalculator/">
@@ -41,31 +72,34 @@
             <a target="_blank" href="https://pufffissal.github.io/weather/">
                 <h2>Időjárás</h2>
                 <p>Egy Időjárás alkalmazás, ami HTML, CSS, Javascript-et és API tartalmaz.</p>
-                <img src="idokep.jpg" alt"Ido">
+                <img src="idokep.jpg" alt="Időjárás">
             </a>
         </div>
         <div class="card">
-            <a href="https://pufffissal.github.io/pingpong">
+            <a target="_blank" href="https://pufffissal.github.io/pingpong">
                 <h2>Pingpong Game</h2>
-                <p>Egy kis játék, ami HTML, CSS és Javascript-et használ.
-                    Rekordtartó:U.Milán</p>
-                <img src="pingpong.jpg" alt"Pingpong">
+                <p>Egy kis játék, ami HTML, CSS és Javascript-et használ. Rekordtartó: U.Milán</p>
+                <img src="pingpong.jpg" alt="Pingpong">
             </a>
         </div>
         <div class="card">
-            <a href="https://pufffissal.github.io/tictactoepvp">
+            <a target="_blank" href="https://pufffissal.github.io/tictactoepvp">
                 <h2>Tic Tac Toe</h2>
                 <p>Játék ami HTML, CSS és Javascript-et használ. VS Játékos amőba egy 3x3 arénában.</p>
-                <img src="ttt.png" alt"Pingpong">
+                <img src="ttt.png" alt="Tic Tac Toe">
+            </a>
         </div>
     </div>
+    
+    <a href="https://pufffissal.github.io/moreproject" class="back-button">További projektek</a>
+
     <div class="discord">
         <a href="https://pufffissal.github.io/discord" class="discord-icon-link">
             <i class="fab fa-discord"></i>
-            <a href="https://pufffissal.itch.io" class="itch">
-                <i class="fa fa-gamepad" style="color: #a92323;"></i>
-            </a>
+        </a>
+        <a href="https://pufffissal.itch.io" class="itch">
+            <i class="fa fa-gamepad" style="color: #a92323;"></i>
+        </a>
     </div>
-    
 </body>
 </html>
